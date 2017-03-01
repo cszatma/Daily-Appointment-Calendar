@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E31C2A391E6765500073BAB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E31C2A381E6765500073BAB5 /* AppDelegate.m */; };
+		E31C2A3C1E6765500073BAB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E31C2A3B1E6765500073BAB5 /* main.m */; };
+		E31C2A3F1E6765500073BAB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E31C2A3E1E6765500073BAB5 /* ViewController.m */; };
+		E31C2A411E6765500073BAB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31C2A401E6765500073BAB5 /* Assets.xcassets */; };
+		E31C2A441E6765500073BAB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31C2A421E6765500073BAB5 /* Main.storyboard */; };
+		E31C2A4F1E6765500073BAB5 /* Daily_Appointment_CalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E31C2A4E1E6765500073BAB5 /* Daily_Appointment_CalendarTests.m */; };
+		E31C2A5A1E6765500073BAB5 /* Daily_Appointment_CalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E31C2A591E6765500073BAB5 /* Daily_Appointment_CalendarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E31C2A4B1E6765500073BAB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E31C2A2C1E6765500073BAB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E31C2A331E6765500073BAB5;
+			remoteInfo = "Daily Appointment Calendar";
+		};
+		E31C2A561E6765500073BAB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E31C2A2C1E6765500073BAB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E31C2A331E6765500073BAB5;
+			remoteInfo = "Daily Appointment Calendar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E31C2A341E6765500073BAB5 /* Daily Appointment Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Appointment Calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31C2A371E6765500073BAB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E31C2A381E6765500073BAB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E31C2A3B1E6765500073BAB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E31C2A3D1E6765500073BAB5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E31C2A3E1E6765500073BAB5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E31C2A401E6765500073BAB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E31C2A431E6765500073BAB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E31C2A451E6765500073BAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E31C2A4A1E6765500073BAB5 /* Daily Appointment CalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daily Appointment CalendarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31C2A4E1E6765500073BAB5 /* Daily_Appointment_CalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Daily_Appointment_CalendarTests.m; sourceTree = "<group>"; };
+		E31C2A501E6765500073BAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E31C2A551E6765500073BAB5 /* Daily Appointment CalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daily Appointment CalendarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31C2A591E6765500073BAB5 /* Daily_Appointment_CalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Daily_Appointment_CalendarUITests.m; sourceTree = "<group>"; };
+		E31C2A5B1E6765500073BAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E31C2A311E6765500073BAB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31C2A471E6765500073BAB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31C2A521E6765500073BAB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E31C2A2B1E6765500073BAB5 = {
+			isa = PBXGroup;
+			children = (
+				E31C2A361E6765500073BAB5 /* Daily Appointment Calendar */,
+				E31C2A4D1E6765500073BAB5 /* Daily Appointment CalendarTests */,
+				E31C2A581E6765500073BAB5 /* Daily Appointment CalendarUITests */,
+				E31C2A351E6765500073BAB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E31C2A351E6765500073BAB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E31C2A341E6765500073BAB5 /* Daily Appointment Calendar.app */,
+				E31C2A4A1E6765500073BAB5 /* Daily Appointment CalendarTests.xctest */,
+				E31C2A551E6765500073BAB5 /* Daily Appointment CalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E31C2A361E6765500073BAB5 /* Daily Appointment Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				E31C2A371E6765500073BAB5 /* AppDelegate.h */,
+				E31C2A381E6765500073BAB5 /* AppDelegate.m */,
+				E31C2A3D1E6765500073BAB5 /* ViewController.h */,
+				E31C2A3E1E6765500073BAB5 /* ViewController.m */,
+				E31C2A401E6765500073BAB5 /* Assets.xcassets */,
+				E31C2A421E6765500073BAB5 /* Main.storyboard */,
+				E31C2A451E6765500073BAB5 /* Info.plist */,
+				E31C2A3A1E6765500073BAB5 /* Supporting Files */,
+			);
+			path = "Daily Appointment Calendar";
+			sourceTree = "<group>";
+		};
+		E31C2A3A1E6765500073BAB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E31C2A3B1E6765500073BAB5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E31C2A4D1E6765500073BAB5 /* Daily Appointment CalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				E31C2A4E1E6765500073BAB5 /* Daily_Appointment_CalendarTests.m */,
+				E31C2A501E6765500073BAB5 /* Info.plist */,
+			);
+			path = "Daily Appointment CalendarTests";
+			sourceTree = "<group>";
+		};
+		E31C2A581E6765500073BAB5 /* Daily Appointment CalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E31C2A591E6765500073BAB5 /* Daily_Appointment_CalendarUITests.m */,
+				E31C2A5B1E6765500073BAB5 /* Info.plist */,
+			);
+			path = "Daily Appointment CalendarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E31C2A331E6765500073BAB5 /* Daily Appointment Calendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31C2A5E1E6765500073BAB5 /* Build configuration list for PBXNativeTarget "Daily Appointment Calendar" */;
+			buildPhases = (
+				E31C2A301E6765500073BAB5 /* Sources */,
+				E31C2A311E6765500073BAB5 /* Frameworks */,
+				E31C2A321E6765500073BAB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Daily Appointment Calendar";
+			productName = "Daily Appointment Calendar";
+			productReference = E31C2A341E6765500073BAB5 /* Daily Appointment Calendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E31C2A491E6765500073BAB5 /* Daily Appointment CalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31C2A611E6765500073BAB5 /* Build configuration list for PBXNativeTarget "Daily Appointment CalendarTests" */;
+			buildPhases = (
+				E31C2A461E6765500073BAB5 /* Sources */,
+				E31C2A471E6765500073BAB5 /* Frameworks */,
+				E31C2A481E6765500073BAB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E31C2A4C1E6765500073BAB5 /* PBXTargetDependency */,
+			);
+			name = "Daily Appointment CalendarTests";
+			productName = "Daily Appointment CalendarTests";
+			productReference = E31C2A4A1E6765500073BAB5 /* Daily Appointment CalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E31C2A541E6765500073BAB5 /* Daily Appointment CalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31C2A641E6765500073BAB5 /* Build configuration list for PBXNativeTarget "Daily Appointment CalendarUITests" */;
+			buildPhases = (
+				E31C2A511E6765500073BAB5 /* Sources */,
+				E31C2A521E6765500073BAB5 /* Frameworks */,
+				E31C2A531E6765500073BAB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E31C2A571E6765500073BAB5 /* PBXTargetDependency */,
+			);
+			name = "Daily Appointment CalendarUITests";
+			productName = "Daily Appointment CalendarUITests";
+			productReference = E31C2A551E6765500073BAB5 /* Daily Appointment CalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E31C2A2C1E6765500073BAB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Christopher Szatmary";
+				TargetAttributes = {
+					E31C2A331E6765500073BAB5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BS5UQBU3ML;
+						ProvisioningStyle = Automatic;
+					};
+					E31C2A491E6765500073BAB5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BS5UQBU3ML;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E31C2A331E6765500073BAB5;
+					};
+					E31C2A541E6765500073BAB5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BS5UQBU3ML;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E31C2A331E6765500073BAB5;
+					};
+				};
+			};
+			buildConfigurationList = E31C2A2F1E6765500073BAB5 /* Build configuration list for PBXProject "Daily Appointment Calendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E31C2A2B1E6765500073BAB5;
+			productRefGroup = E31C2A351E6765500073BAB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E31C2A331E6765500073BAB5 /* Daily Appointment Calendar */,
+				E31C2A491E6765500073BAB5 /* Daily Appointment CalendarTests */,
+				E31C2A541E6765500073BAB5 /* Daily Appointment CalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E31C2A321E6765500073BAB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31C2A411E6765500073BAB5 /* Assets.xcassets in Resources */,
+				E31C2A441E6765500073BAB5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31C2A481E6765500073BAB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31C2A531E6765500073BAB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E31C2A301E6765500073BAB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31C2A3F1E6765500073BAB5 /* ViewController.m in Sources */,
+				E31C2A3C1E6765500073BAB5 /* main.m in Sources */,
+				E31C2A391E6765500073BAB5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31C2A461E6765500073BAB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31C2A4F1E6765500073BAB5 /* Daily_Appointment_CalendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31C2A511E6765500073BAB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31C2A5A1E6765500073BAB5 /* Daily_Appointment_CalendarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E31C2A4C1E6765500073BAB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E31C2A331E6765500073BAB5 /* Daily Appointment Calendar */;
+			targetProxy = E31C2A4B1E6765500073BAB5 /* PBXContainerItemProxy */;
+		};
+		E31C2A571E6765500073BAB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E31C2A331E6765500073BAB5 /* Daily Appointment Calendar */;
+			targetProxy = E31C2A561E6765500073BAB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E31C2A421E6765500073BAB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E31C2A431E6765500073BAB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E31C2A5C1E6765500073BAB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E31C2A5D1E6765500073BAB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E31C2A5F1E6765500073BAB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BS5UQBU3ML;
+				INFOPLIST_FILE = "Daily Appointment Calendar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SzatmaryInc.Daily-Appointment-Calendar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E31C2A601E6765500073BAB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BS5UQBU3ML;
+				INFOPLIST_FILE = "Daily Appointment Calendar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SzatmaryInc.Daily-Appointment-Calendar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E31C2A621E6765500073BAB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BS5UQBU3ML;
+				INFOPLIST_FILE = "Daily Appointment CalendarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SzatmaryInc.Daily-Appointment-CalendarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daily Appointment Calendar.app/Contents/MacOS/Daily Appointment Calendar";
+			};
+			name = Debug;
+		};
+		E31C2A631E6765500073BAB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BS5UQBU3ML;
+				INFOPLIST_FILE = "Daily Appointment CalendarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SzatmaryInc.Daily-Appointment-CalendarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daily Appointment Calendar.app/Contents/MacOS/Daily Appointment Calendar";
+			};
+			name = Release;
+		};
+		E31C2A651E6765500073BAB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BS5UQBU3ML;
+				INFOPLIST_FILE = "Daily Appointment CalendarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SzatmaryInc.Daily-Appointment-CalendarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Daily Appointment Calendar";
+			};
+			name = Debug;
+		};
+		E31C2A661E6765500073BAB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BS5UQBU3ML;
+				INFOPLIST_FILE = "Daily Appointment CalendarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SzatmaryInc.Daily-Appointment-CalendarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Daily Appointment Calendar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E31C2A2F1E6765500073BAB5 /* Build configuration list for PBXProject "Daily Appointment Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31C2A5C1E6765500073BAB5 /* Debug */,
+				E31C2A5D1E6765500073BAB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E31C2A5E1E6765500073BAB5 /* Build configuration list for PBXNativeTarget "Daily Appointment Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31C2A5F1E6765500073BAB5 /* Debug */,
+				E31C2A601E6765500073BAB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E31C2A611E6765500073BAB5 /* Build configuration list for PBXNativeTarget "Daily Appointment CalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31C2A621E6765500073BAB5 /* Debug */,
+				E31C2A631E6765500073BAB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E31C2A641E6765500073BAB5 /* Build configuration list for PBXNativeTarget "Daily Appointment CalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31C2A651E6765500073BAB5 /* Debug */,
+				E31C2A661E6765500073BAB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E31C2A2C1E6765500073BAB5 /* Project object */;
+}
