@@ -10,4 +10,13 @@
 
 @implementation NSArray (AppointmentArray)
 
+-(NSUInteger)indexOfAppointmentWithDate:(NSDate *)date {
+    for (Appointment *a in self) {
+        if (a.date == date) {
+            return [self indexOfObject:a];
+        }
+    }
+    return NSNotFound;
+}
+
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E301817E1E6BA8AA00C72FED /* NSArray+AppointmentArray.m in Sources */ = {isa = PBXBuildFile; fileRef = E301817D1E6BA8AA00C72FED /* NSArray+AppointmentArray.m */; };
 		E31C2A391E6765500073BAB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E31C2A381E6765500073BAB5 /* AppDelegate.m */; };
 		E31C2A3C1E6765500073BAB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E31C2A3B1E6765500073BAB5 /* main.m */; };
 		E31C2A3F1E6765500073BAB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E31C2A3E1E6765500073BAB5 /* ViewController.m */; };
@@ -14,6 +15,10 @@
 		E31C2A441E6765500073BAB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31C2A421E6765500073BAB5 /* Main.storyboard */; };
 		E31C2A4F1E6765500073BAB5 /* Daily_Appointment_CalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E31C2A4E1E6765500073BAB5 /* Daily_Appointment_CalendarTests.m */; };
 		E31C2A5A1E6765500073BAB5 /* Daily_Appointment_CalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E31C2A591E6765500073BAB5 /* Daily_Appointment_CalendarUITests.m */; };
+		E31C2A6D1E6774580073BAB5 /* NSDate+CustomDate.m in Sources */ = {isa = PBXBuildFile; fileRef = E31C2A6C1E6774580073BAB5 /* NSDate+CustomDate.m */; };
+		E31C2A701E67E7B20073BAB5 /* Appointment.m in Sources */ = {isa = PBXBuildFile; fileRef = E31C2A6F1E67E7B20073BAB5 /* Appointment.m */; };
+		E32BDCFC1E68FA60000A1C75 /* NSTextField+ExtendedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E32BDCFB1E68FA60000A1C75 /* NSTextField+ExtendedTextField.m */; };
+		E37394B41E69B9F7004CCFAA /* NumberOnlyFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = E37394B31E69B9F7004CCFAA /* NumberOnlyFormatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E301817C1E6BA8AA00C72FED /* NSArray+AppointmentArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+AppointmentArray.h"; sourceTree = "<group>"; };
+		E301817D1E6BA8AA00C72FED /* NSArray+AppointmentArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AppointmentArray.m"; sourceTree = "<group>"; };
 		E31C2A341E6765500073BAB5 /* Daily Appointment Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Appointment Calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31C2A371E6765500073BAB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E31C2A381E6765500073BAB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,6 +56,14 @@
 		E31C2A551E6765500073BAB5 /* Daily Appointment CalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daily Appointment CalendarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31C2A591E6765500073BAB5 /* Daily_Appointment_CalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Daily_Appointment_CalendarUITests.m; sourceTree = "<group>"; };
 		E31C2A5B1E6765500073BAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E31C2A6B1E6774580073BAB5 /* NSDate+CustomDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CustomDate.h"; sourceTree = "<group>"; };
+		E31C2A6C1E6774580073BAB5 /* NSDate+CustomDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CustomDate.m"; sourceTree = "<group>"; };
+		E31C2A6E1E67E7B20073BAB5 /* Appointment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appointment.h; sourceTree = "<group>"; };
+		E31C2A6F1E67E7B20073BAB5 /* Appointment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appointment.m; sourceTree = "<group>"; };
+		E32BDCFA1E68FA60000A1C75 /* NSTextField+ExtendedTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextField+ExtendedTextField.h"; sourceTree = "<group>"; };
+		E32BDCFB1E68FA60000A1C75 /* NSTextField+ExtendedTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTextField+ExtendedTextField.m"; sourceTree = "<group>"; };
+		E37394B21E69B9F7004CCFAA /* NumberOnlyFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberOnlyFormatter.h; sourceTree = "<group>"; };
+		E37394B31E69B9F7004CCFAA /* NumberOnlyFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberOnlyFormatter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +118,11 @@
 				E31C2A381E6765500073BAB5 /* AppDelegate.m */,
 				E31C2A3D1E6765500073BAB5 /* ViewController.h */,
 				E31C2A3E1E6765500073BAB5 /* ViewController.m */,
+				E31C2A6E1E67E7B20073BAB5 /* Appointment.h */,
+				E31C2A6F1E67E7B20073BAB5 /* Appointment.m */,
+				E37394B21E69B9F7004CCFAA /* NumberOnlyFormatter.h */,
+				E37394B31E69B9F7004CCFAA /* NumberOnlyFormatter.m */,
+				E32BDCF91E68FA17000A1C75 /* Categories */,
 				E31C2A401E6765500073BAB5 /* Assets.xcassets */,
 				E31C2A421E6765500073BAB5 /* Main.storyboard */,
 				E31C2A451E6765500073BAB5 /* Info.plist */,
@@ -135,6 +155,19 @@
 				E31C2A5B1E6765500073BAB5 /* Info.plist */,
 			);
 			path = "Daily Appointment CalendarUITests";
+			sourceTree = "<group>";
+		};
+		E32BDCF91E68FA17000A1C75 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E31C2A6B1E6774580073BAB5 /* NSDate+CustomDate.h */,
+				E31C2A6C1E6774580073BAB5 /* NSDate+CustomDate.m */,
+				E32BDCFA1E68FA60000A1C75 /* NSTextField+ExtendedTextField.h */,
+				E32BDCFB1E68FA60000A1C75 /* NSTextField+ExtendedTextField.m */,
+				E301817C1E6BA8AA00C72FED /* NSArray+AppointmentArray.h */,
+				E301817D1E6BA8AA00C72FED /* NSArray+AppointmentArray.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +306,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E31C2A3F1E6765500073BAB5 /* ViewController.m in Sources */,
+				E32BDCFC1E68FA60000A1C75 /* NSTextField+ExtendedTextField.m in Sources */,
+				E31C2A6D1E6774580073BAB5 /* NSDate+CustomDate.m in Sources */,
 				E31C2A3C1E6765500073BAB5 /* main.m in Sources */,
+				E31C2A701E67E7B20073BAB5 /* Appointment.m in Sources */,
+				E37394B41E69B9F7004CCFAA /* NumberOnlyFormatter.m in Sources */,
+				E301817E1E6BA8AA00C72FED /* NSArray+AppointmentArray.m in Sources */,
 				E31C2A391E6765500073BAB5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +545,7 @@
 				E31C2A601E6765500073BAB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E31C2A611E6765500073BAB5 /* Build configuration list for PBXNativeTarget "Daily Appointment CalendarTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +554,7 @@
 				E31C2A631E6765500073BAB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E31C2A641E6765500073BAB5 /* Build configuration list for PBXNativeTarget "Daily Appointment CalendarUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +563,7 @@
 				E31C2A661E6765500073BAB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

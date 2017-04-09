@@ -10,4 +10,14 @@
 
 @interface Appointment : NSObject
 
+@property NSDate *date;
+
+@property NSString *name;
+
+-(id)initWithName:(NSString *)name atDate:(NSDate *)date;
+
+-(NSString *)dateTime;
+
+-(NSComparisonResult)compare:(Appointment *)appointment;
+
 @end

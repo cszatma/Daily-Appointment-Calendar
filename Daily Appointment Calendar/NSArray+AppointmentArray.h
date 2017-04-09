@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Appointment.h"
 
 @interface NSArray (AppointmentArray)
+
+-(NSUInteger)indexOfAppointmentWithDate:(NSDate *)date;
 
 @end
