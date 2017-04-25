@@ -10,10 +10,6 @@
 
 @implementation Appointment
 
-@synthesize date = _date;
-
-@synthesize name = _name;
-
 -(id)initWithName:(NSString *)name atDate:(NSDate *)date {
     if (self = [super init]) {
         self.name = name;

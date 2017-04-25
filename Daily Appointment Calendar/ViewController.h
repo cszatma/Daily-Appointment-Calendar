@@ -7,11 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "NSDate+CustomDate.h"
-#import "Appointment.h"
-#import "NSTextField+ExtendedTextField.h"
-#import "NumberOnlyFormatter.h"
-#import "NSArray+AppointmentArray.h"
 
 @interface ViewController : NSViewController
 
@@ -31,9 +26,9 @@
 
 @property (weak) IBOutlet NSTextView *txtDescription;
 
-@property NSDate *selectedDate;
+@property (strong, nonatomic) NSDate *selectedDate;
 
-@property NSMutableDictionary *appointments;
+@property (strong, nonatomic) NSMutableDictionary *appointments;
 
 - (IBAction)adjustDateButtons_Click:(id)sender;
 

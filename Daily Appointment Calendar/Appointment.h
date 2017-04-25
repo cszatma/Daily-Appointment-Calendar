@@ -10,14 +10,16 @@
 
 @interface Appointment : NSObject
 
-@property NSDate *date;
+@property (strong, nonatomic) NSDate *date;
 
-@property NSString *name;
+@property (strong, nonatomic) NSString *name;
 
 -(id)initWithName:(NSString *)name atDate:(NSDate *)date;
 
 -(NSString *)dateTime;
 
 -(NSComparisonResult)compare:(Appointment *)appointment;
+
+- (NSString *)description;
 
 @end
